@@ -9,5 +9,7 @@ const BlogSection = () => {
 const HeroSection = () => {
     return (
         <section id="home" className='lg:py-16'></section>
+    )
+  }
 
 export default BlogSection;
