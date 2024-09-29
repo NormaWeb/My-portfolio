@@ -35,7 +35,7 @@ const EmailSection = () => {
 
 
         if (response.status === '200') {
-            console.log('Messent sent.');
+            console.log('Message sent.');
             setEmailSubmitted(true);
         }
     }
@@ -104,7 +104,7 @@ const EmailSection = () => {
                         Send Message
                     </button>
 
-                     // if the email was submitted successfully, show a sucess message.
+                     {/* if the email was submitted successfully, show a success message. */}
                     emailSubmitted && (
                     <p className='text-blue-500 text-sm mt-2'>Email sent successfully!
                     </p>

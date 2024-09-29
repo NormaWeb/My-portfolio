@@ -4,10 +4,10 @@ import Navbar from '@/components/Navbar';
 import NavLink from '@/components/NavLink';
 import AboutSection from '@/components/AboutSection';
 import ProjectSection from '@/components/ProjectSection';
+import BlogSection from '@/components/BlogSection';
 // import ProjectCard from '@/components/ProjectCard';
 import EmailSection from '@/components/EmailSection';
 import Footer from '@/components/Footer';
-import BlogSection from '@/components/BlogSection';
 
 
 

@@ -1,3 +1,24 @@
 {
-  "extends": "next/core-web-vitals"
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:react/recommended",  // Add this line
+    "next"  // Add this line
+  ],
+  "plugins": [
+    "react"  // Add this line
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
 }
