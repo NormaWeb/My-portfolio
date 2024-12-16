@@ -55,12 +55,12 @@ const AboutSection = () => {
   };
 
   return (
-    <section id="about" className="text-white">
+    <section id="about" className="text-white py-16 md:py-20">
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 flex flex-col-reverse md:flex-row">
         <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
           <Image
             src="/images/Bee.PNG"
