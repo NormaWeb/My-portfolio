@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-4 my-4 md:my-0">
           <a
-            href="www.linkedin.com/in/blessingokwong"
+            href="https://linkedin.com/in/blessingokwong"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
