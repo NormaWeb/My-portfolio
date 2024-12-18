@@ -11,10 +11,11 @@ const EmailSection = () => {
             email: e.target.email.value,
             subject: e.target.subject.value,
             message: e.target.message.value,
+            accessKey: "e263268a-54e4-4b6f-a906-9175919ae4ca",
         };
 
         const JSONdata = JSON.stringify(data);
-        const endpoint = "/api/send";
+        const endpoint = "https://api.staticforms.xyz/submit"; //"/api/send";
 
         const options = {
             method: "POST",
